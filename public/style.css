@@ -1,0 +1,26 @@
+nav {
+    background-color: tomato;
+    color: black;
+    padding:30px 60px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+nav li a:hover {
+    color: black;
+    text-decoration: none;
+}
